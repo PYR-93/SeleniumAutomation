@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuit">
+  <test  name="TestBasedonGroups">
+    <groups>
+		<run>
+			<include name="Regression"></include>
+		</run>
+	</groups>
+    
+    <classes>
+      <class name="com.TestSuits.TestBVTSuit"/>
+      <class name="com.TestSuits.TestRegrssionSuit"/>
+    </classes>
+  </test> <!-- TestBasedonGroups -->
+</suite> <!-- TestSuit -->

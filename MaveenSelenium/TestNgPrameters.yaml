@@ -1,0 +1,5 @@
+name: Param
+configFailurePolicy: skip
+tests:
+  - name: ReadDataFromXML
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EXParametrizing">
+  <test thread-count="5" name="FetchDriverDetailsFromXML">
+  <classes>
+      <class name="com.SauceLabs.LoginPage"/>
+      <class name="com.TestNG_EbayAssert.EbayTitleTest"/>
+      <class name="com.TestNG.Sample"/>
+      <class name="com.Annotationss.TestGroups"/>
+    </classes>
+  
+  </test> <!-- FetchDriverDetailsFromXML -->
+</suite> <!-- EXParametrizing -->
